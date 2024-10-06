@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gabarito', sans-serif;
+    display: block;
+}
+
+/* The container that holds all the content */
+.container {
+    max-width: 1200px; /* Set a max-width (e.g., 1200px) for the entire content */
+    margin: 0 auto; /* Center the container by setting left and right margin to auto */
+    padding: 0 10px; /* Optional: Add some padding for smaller spacing inside the container */
+}
+
+/* Rest of your CSS for other elements goes here */
+
+.navbar {
+    padding: 10px 20px; /* Add some padding for spacing */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__s1__title {
+    color:black;
+    margin: 0;
+}
+
+.navbar__s1__title img{
+    width: 30px;
+    margin-right: 10px;
+    
+    
+}
+.whereto__title{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+.navbar__3__button{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+.navbar__s2 {
+    padding: 10px;
+    width: 30%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+
+}
+
+
+.navbar__s3 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.marquee_s1{
+    background-color: #34e0a1;
+    color: black;
+    padding: 10px;
+    align-items: center;
+}
+.categories {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    position: relative;
+}
+
+.categories p {
+    color: black;
+    margin: 0;
+    padding: 10px 0;
+    text-decoration: none;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover effect for the category */
+.category-item:hover p {
+    border-bottom: 2px solid black; /* Underline on hover */
+    text-decoration: none; /* Disable the default text underline */
+}
+
+.navbar__s2__bar {
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+
+}
+.navbar__s2__bar input {
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    
+}
+
+.navbar__s2 input:focus {
+    outline: none;
+}
+
+.navbar__s2__button{
+    background-color: #34e0a1;
+    color: black;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: medium;
+}
+
+
+
+
+.sale-image img {
+    padding: 30px;
+    width: 100%;
+
+}
+
+.recommended {
+    padding: 10px;
+}
+
+.recommended__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+.course__card {
+    width: 300px;
+
+}
+
+.course__card img {
+    width: 100%;
+    height: 60%;
+}
+
+.topics {
+    padding: 10px;
+
+}
+
+.topics__container {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.topics__container p {
+    border: solid grey 2px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+
+}
+
+.popular {
+    padding: 10px;
+}
+
+.popular__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns content to the left */
+    padding: 20px;
+    background-color: #f8f8f8; /* Change to your preferred color */
+    width: 100%; /* Full width of the parent element */
+    margin: 0; /* Remove any margin */
+    position: relative; /* Allows full width without container */
+    left: 0; /* Start from the left */
+}
+
+.footer__one {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping of items */
+    justify-content: space-between; /* Align items to the start */
+    width: 100%; /* Full width */
+}
+
+.footer__two {
+    margin-top: 20px;
+}
+
+.footer__socials {
+    display: flex;
+    justify-content: flex-end; /* Align to the right */
+    width: 100%; /* Full width */
+    margin-top: 10px;
+}
+
+.footer__socials i {
+    margin-left: 10px; /* Space between icons */
+}
+ 
